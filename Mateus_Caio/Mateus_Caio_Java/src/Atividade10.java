@@ -1,8 +1,8 @@
-public class Atividade9 {
+public class Atividade10 {
     static void main(String[] args) {
         System.out.println("Entre com um valor para x: ");
         int x = new java.util.Scanner(System.in).nextInt();
-        if (x % 2 == 0){
+        if (x >= 1 && x <= 1000){
             System.out.println("O número ESTÁ compreendido entre 1 e 1000");
         }else {
             System.out.println("O número NÃO ESTA compreendido entre 1 e 1000");
